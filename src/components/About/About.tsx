@@ -32,7 +32,7 @@ export default function About() {
             pb: 6,
           }}
         >
-          <Container maxWidth="sm">
+          <Container maxWidth="lg">
             <Typography
               component="h1"
               variant="h2"
@@ -42,8 +42,14 @@ export default function About() {
             >
               About
             </Typography>
-            <Typography variant="h5" align="center" color="text.secondary" paragraph>
-              Some Info
+            <Typography variant="h6" color="text.secondary" paragraph>
+            We are a leading artificial intelligence (AI) laboratory focused on developing cutting-edge solutions to accelerate the world’s transformation to a more intelligent future. Our team of passionate and experienced scientists, engineers, and entrepreneurs are driven by a common goal to use AI to solve real-world problems.
+            <br /><br />
+            We focus on the development of AI-driven products and services that help businesses and organizations automate their operations and improve efficiency. Our state-of-the-art technology and innovative methodologies make us one of the world's leading AI labs.
+            <br /><br />
+            We work with some of the largest companies and organizations in the world, helping them achieve their goals through our AI-powered products and services. Whether it's optimizing a business processes, or creating new, personalized customer experiences, we can help bring the power of AI to your organization.
+            <br /><br />
+            At our core, we strive to build intelligent solutions that benefit society and make the world a better place. Our commitment to research and technology helps us evolve the innovations of tomorrow. Let's work together to create a bright future for everyone.
             </Typography>            
           </Container>
         </Box>        
