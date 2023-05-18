@@ -3,6 +3,7 @@ import ReactDOM from 'react-dom/client';
 import App from './components/App/App';
 import reportWebVitals from './reportWebVitals';
 import axios from "axios";
+import { BrowserRouter } from 'react-router-dom'
 
 axios.defaults.baseURL = process.env.REACT_APP_BACKEND_URL;
 
@@ -11,7 +12,9 @@ const root = ReactDOM.createRoot(
 );
 root.render(
   <React.StrictMode>
-    <App />
+    <BrowserRouter>      
+      <App />
+    </BrowserRouter>
   </React.StrictMode>
 );
 
